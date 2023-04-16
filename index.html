@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Redford Blacksmithing</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="icon" type="image/x-icon" href="./images/hammer.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./js/main.js" defer></script>
+    </head>
+    <body>
+        <nav>
+
+            <nav-title>
+                <img id="site-logo" src="./images/hammer.svg">
+                <p id="site-title"><b>Redford Blacksmithing</b></p>
+            </nav-title>
+            
+            <nav-menu>
+                <button class="nav-button"><b>MENU</b></button>
+                <div class="drop-menu">
+                    <a class="drop-i" onclick="changer(1)">Home</a>
+                    <a class="drop-i" onclick="changer(2)">Products</a>
+                    <a class="drop-i" onclick="changer(3)">Custom Work</a>
+                    <a class="drop-i" onclick="changer(4)">Classes</a>
+                    <a class="drop-i" onclick="changer(5)">About us</a>
+                </div>
+                
+            </nav-menu>
+            
+        </nav>
+
+        <section id="main-section">
+            
+            <!-- top row -->
+            <section id="home-top-section">
+                <section class="main-box">
+                    <p id="intro-text">&nbsp;&nbsp;&nbsp;&nbsp;Redford blacksmithing is a local, 
+                            family-owned workshop based in Burbeon, Tennessee. We've 
+                            been in business for over 50 years, passing our trade from 
+                            father to son, and we aim to set the standard for quality, 
+                            whatever the piece.</p>
+                    <img class="main-image" src="./images/intro-hammer.jpg">     
+                </section>
+            </section>
+
+            <!-- middle row -->
+            <section id="home-midsection">
+
+
+                <section id="home-classes">
+                    <section class="main-box">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;We are now offering classes, as well as taking apprentices! take a look at 
+                            our classes page or contact us for more details!</p>
+                        <img class="main-image" src="./images/intro-crowbar.jpg">
+                    </section>
+                </section>
+
+
+                <section id="home-products">
+                    <section class="main-box" id="main-midsection-right">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;We are proud to be experienced in all kinds of metalwork, and 
+                            we are capable of almost any creation you can think of! take a look at our Products page.
+                        </p>
+                        <img class="main-image" src="./images/intro-products-image.jpg">
+                    </section>
+                </section>
+                
+            </section>
+
+            <!-- bottom row -->
+            <section id="home-bottom-section">
+                <section class="main-box">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;We love to take special orders! See our Custom Work page for more details.</p>
+                    <img class="main-image" src="./images/intro-requests-image.jpg">
+                </section>
+            </section>
+
+
+        </section>
+
+        <!--section marker-->
+        <section id="products-section" class="section-container">
+            <h2 class="section-title">Products</h2>
+                <section class="section-box">
+                    <section class="section-info" ="products-text">
+                        <p class="section-info-text">
+                            &nbsp;&nbsp;&nbsp;&nbsp;We take pride in our ability to make any
+                            piece from any material, taking care to make sure the final result 
+                            is functional and aesthetically pleasing. We specialize in toolworking,
+                             but we also forge and mend blades and shears, as well as larger furnishings 
+                             and decorations.
+                        </p>
+                        <ul class="section-info-list">
+                            <li>Grates</li>
+                            <li>Grilles</li>
+                            <li>Railings</li>
+                            <li>Horseshoes</li>
+                            <li>Sconces</li>
+                            <li>Chairs/Chair legs</li>
+                            <li>Tables/Table legs</li>
+                            <li>Longswords</li>
+                            <li>Daggers</li>
+                            <li>Shears</li>
+                            <li>Farm tools</li>
+                            <li>Armor pieces</li>
+                        </ul>
+                    </section>
+                    <figure class="image-container">
+                        <img src="./images/knife-in-hand.jpg" class="products-images">
+                        <figcaption>A knife made by our newest apprentice, Mark.</figcaption>
+                    </figure>
+                    <figure class="image-container">
+                        <img src="./images/armor-set.jpg" class="products-images">
+                        <figcaption>Our latest special-order set of armor by our armourer Jay.</figcaption>
+                    </figure>
+                    <figure class="image-container">
+                        <img src="images/one-of-our-anvils.jpg" class="products-images">
+                        <figcaption>Some of our tooling with an anvil.</figcaption>
+                    </figure>
+                </section>
+        </section>
+
+        <!--section marker-->
+        <section id="classes-section" class="section-container">
+            <h2 class="section-title">Classes</h2>
+            <section class="section-box" id="classes-section-box">
+                <section class="section-info" id="classes-text">
+                    <p class="section-info-text">
+                        &nbsp;&nbsp;&nbsp;&nbsp;On Tuesdays and Thursdays we invite groups of people to 
+                        come learn from our smiths, both by watching them at work and by taking lessons. 
+                        We offer coaching in basic forging, building your own forge, maintaing a forge and 
+                        tools, basic hammering and metalworking skills, and more! We gaurantee the best one-on-one 
+                        teaching in the state. Occasionally we take apprentices, usually from among those we've
+                         taught some basic lessons to. Come learn the art of blacksmithing!
+                    </p>
+                </section>
+                <section class="image-container" id="video-container">
+                    <iframe id="video"
+                    src="https://www.youtube.com/embed/RB3eVyW-mKw?" frameborder="0"></iframe>
+                    <p>Here's a great demo by Grant from the Grass-fed Homestead youtube channel.</p>
+                </section>
+                <figure class="image-container">
+                    <img src="./images/standing.jpg" class="products-images">
+                    <figcaption>James in front of our forge.</figcaption>
+                </figure>
+                <figure class="image-container">
+                    <img src="./images/group-welding.jpg" class="products-images">
+                    <figcaption>Nathan coaching our welding team.</figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <!--section marker-->
+        <section id="requests-section" class="section-container">
+            <h2 class="section-title">Custom Work</h2>
+            <section class="section-box" id="requests-section-box">
+                <!--picture-->
+                <figure class="image-container">
+                    <img src="./images/custom-armor-1.jpg" class="products-images">
+                    <figcaption>One of our recent sets of custom armor, built with a sword sheath.</figcaption>
+                </figure>
+                <!--text-->
+                <section class="section-info">
+                    <p class="section-info-text" id="requests-text">On occasion, we recieve questions about whether we accept 
+                        special requests or custom orders. The answer? Absolutely! We love receiving specific 
+                        requests for a new design or a replica piece; it gives us a unique challenge and helps
+                         us tune our skills. Contact us anytime during business hours or at our email for estimates.
+                    </p>
+                </section>
+                <!--picture-->
+                <figure class="image-container">
+                    <img src="./images/custom-cups-engraved.jpg" class="products-images">
+                    <figcaption>Some very intricate designs we created for a special request set of cups.</figcaption>
+                </figure>
+                <!--picture-->
+                <figure class="image-container">
+                    <img src="./images/custom-gauntlet.jpg" class="products-images">
+                    <figcaption>A gauntlet that we repaired in 2021.</figcaption>
+                </figure>
+                <!--picture-->
+                <figure class="image-container">
+                    <img src="./images/custom sign font.jpg" class="products-images">
+                    <figcaption>Some letters being made for a custom shop sign last week.</figcaption>
+                </figure>
+                <!--picture-->
+                <figure class="image-container">
+                    <img src="./images/custom-window-decoration.jpg" class="products-images">
+                    <figcaption>One of mark's designs for a set of window decorations.</figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <!--section marker-->
+        <section id="about-us-section" class="section-container">
+            <h2 class="section-title">About Us</h2>
+            <section class="section-box" id="about-us-section-box">
+
+                <section class="section-info" id="about-us-section-text">
+                    <p class="section-info-text">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Redford blacksmithing is a local, 
+                        family-owned workshop based in Burbeon, Tennessee. We've 
+                        been in business for over 50 years, passing our trade from 
+                        father to son, and we aim to set the standard for quality, 
+                        whatever the piece. We currently have 3 Master blacksmiths: Mark, Andy, and John, 
+                        with Nathan doing most of our welding. We also have 4 Tradesmen, and 3 Apprentice blacksmiths.
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;Recently we've been updating and renovating our main shop, and we plan on adding 
+                        a third building where we can do most of our welding, separate from the main forge. We love visitors, and are
+                        more than happy to show you around!
+                    </p>
+                </section>
+                <figure class="image-container">
+                    <img src="./images/bending-metal.jpg" class="products-images">
+                    <figcaption>James bending a rod in one of our presses.</figcaption>
+                </figure>
+            </section>
+        </section>
+
+        <!-- bottom of the page -->
+        <aside class="bottom-section">
+            <section class="bottom-left">
+                <figure class="image-container" id="bottom-image-container">
+                    <img src="./images/bottom-working -at-table.jpg" 
+                    width="600px" height="auto"
+                    class="products-images" id="bottom-image">
+                    
+                </figure>
+            </section>
+
+            <section class="bottom-right">
+                <h3 class="section-title" id="awards">
+                    Awards:
+                </h3>
+                <ul class="section-info-list" id="awards-list">
+                    <li>Tennessee's Best in: Trades - 2019</li>
+                    <li>Bourbon Counties' best shops award - 2020</li>
+                    <li>Town of Bourbon Award for Excellence - 2018, 2020</li>
+                </ul>
+            </section>
+        </aside>
+
+        <section class="spacer">
+            <!-- black section used to make sure the footer doesn't 
+            cover anything on the page -->
+        </section>
+
+        <footer> 
+            <!--address-->
+            <section id="footer-address">
+                <p>1000 N 300 E<br></p>
+                <p>Bourbon, TN, 55885</p>
+            </section>
+
+
+            <!-- theme changer -->
+            <section id="footer-theme">
+                <button class="sun-class" id="theme-toggle-button">
+                    <img id="theme-button-img"  onclick="theme_changer()" src="./images/sun-icon.svg" height="40px" width="40px">
+                </button>
+            </section>
+
+
+            <!-- copyright info -->
+            <section id="footer-info">
+                <p>All images sourced from pexels.com, copyright free.</p>
+            </section>
+            <!-- phone number -->
+            <section id="footer-phone">
+                <p>Call us at:<br></p>
+                <p>1-800-033-3333</p>
+            </section>
+
+        </footer>
+
+    </body>
+
+</html>

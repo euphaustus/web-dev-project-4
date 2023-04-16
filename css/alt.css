@@ -1,0 +1,153 @@
+/* 
+
+Changes made to project:
+- Added more comments to js file to be a bit more descriptive about what the functions purposes are.
+- Added a simple button in footer to apply/remove new stylesheet.
+- Fixed some typos I found on the site.
+- Added a “dark” theme with red accents that is applied by the new stylesheet.
+- Changed some colors on the “light” theme to blue variants, to make the two themes more separate and distinct.
+- Changed some elements on the home page to distinguish the two themes even more.
+
+*/
+
+
+body {
+    background-color: black;
+}
+
+/* header & navigation */
+nav {
+    background-color: rgb(73, 14, 26);
+    grid-template-columns: 200px auto;
+}
+
+#site-title {
+    color: whitesmoke;
+}
+
+#site-logo {
+    margin-left: 40px;
+}
+
+nav-title {
+    grid-column-start: 2;
+}
+
+nav-menu {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.nav-button {
+    color: whitesmoke;
+    border-color: whitesmoke;
+    flex-direction: row-reverse;
+}
+
+.drop-menu {
+    left: 0;
+    right: auto;
+
+}
+
+.drop-i {
+    color: whitesmoke;
+    background-color: rgb(77, 85, 92);
+}
+.drop-i:hover {background-color: rgb(165, 165, 165);}
+
+
+/* home section */
+#main-section {
+    background-color: rgb(50,50,50);
+}
+
+#home-top-section {
+    background-color: rgb(50,50,50);
+    order: 2;
+}
+
+#home-midsection {
+    background-color: rgb(50,50,50);
+    flex-direction: row;
+    display: flex;
+    order: 1;
+}
+
+#home-bottom-section {
+    background-color: rgb(50,50,50);
+    order: 3;
+}
+
+.main-box {
+    color: whitesmoke;
+    background-color: rgb(89, 89, 89);
+    border-color: #460505;
+    box-shadow: 2px 2px 5px #460505;
+}
+
+
+/* hidden sections */
+.section-container {
+    background-color: rgb(50,50,50);
+}
+
+.section-title {
+    border-color: #460505;
+    background-color: rgb(89, 89, 89);
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px #460505;
+}
+
+.section-info-text {
+    background-color: rgb(89, 89, 89);
+    color:whitesmoke;
+    border-color:#460505;
+    box-shadow:2px 2px 5px #460505;
+}
+
+.section-info-list {
+    background-color: rgb(89, 89, 89);
+    color:whitesmoke;
+    border-color: #460505;
+    box-shadow: 2px 2px 5px #460505;
+}
+
+.image-container {
+    background-color: rgb(89, 89, 89);
+    border-color: #460505;
+    box-shadow:2px 2px 5px #460505;
+    color: whitesmoke;
+}
+
+
+/* bottom section */
+.bottom-section {
+    background-image:
+    linear-gradient(rgba(33, 33, 33, 0.85),rgba(33, 33, 33, 0.85)),
+    url(../images/seamless-background-texture-grey-stone-wall-vector-19346527.webp)
+}
+
+#awards-list {
+    background-color: rgb(89, 89, 89);
+    color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    color: whitesmoke;
+}
+
+#footer-address {
+    background-color: rgb(50,50,50);
+    border-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-width: 5px;
+}
+
+#footer-phone {
+    background-color: rgb(50,50,50);
+    border-color: rgb(26, 26, 26);
+    border-style: solid;
+    border-width: 5px;
+}
